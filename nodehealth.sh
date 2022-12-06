@@ -9,7 +9,9 @@
 #
 #version: 1.0
 #####################################
-
+echo "disk space"
 df -h
+echo "memory"
 free -g
+echo "CPU"
 nproc
