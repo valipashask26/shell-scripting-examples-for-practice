@@ -9,9 +9,9 @@
 #
 #version: 1.0
 #####################################
-echo "disk space"
+echo "\n disk space"
 df -h
-echo "memory"
+echo "\n memory"
 free -g
-echo "CPU"
+echo "\n CPU"
 nproc
